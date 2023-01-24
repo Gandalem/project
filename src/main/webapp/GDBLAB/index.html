@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bc7b2871bd.js" crossorigin="anonymous"></script>
+    <script src="JS/main.js" defer></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/pop-up.css">
+    <title>game review</title>
+    <style>
+        *{margin: 0;padding: 0; box-sizing: border-box;}
+        html,body{
+            height: 100%;
+        }
+        p.title{
+            font-size: 35px; font-weight: bold;
+            width: 250px;
+        }
+        body{
+            background-color: rgb(27, 40, 56);
+        }
+        .img > div > img{
+            width: 200px;
+            height: 270px;
+        }
+        .subject{
+            font-size: 25px;
+            font-family:'Trebuchet MS';
+            color: rgb(197,195,192);
+            text-align: center;
+            padding-bottom: 5px;
+        }
+        a{
+            color: rgb(197,195,192); 
+        }
+        .id,.pass{
+        text-align: right;
+        }
+    </style>
+</head>
+<body>
+
+    <header style="background-color: rgb(23, 26, 33);">
+        <table style="padding-top: 20px;padding-bottom: 20px;">
+            <tr>
+                <td style="width: 10%;"></td>
+                <td style="width: 30%;"><p class="title" style="color: rgb(197,195,192);">game review</p></td>
+                <td style="width: 55%;"></td>
+                <td><a href="#layer2" class="btn-example">login</a>
+					<div class="dim-layer">
+    					<div class="dimBg"></div>
+    						<div id="layer2" class="pop-layer">
+        						<div class="pop-container">
+            						<div class="pop-conts">
+                						<!--content //-->
+                						<table class="ctxt mb20">
+                							<tr>
+                							<td class="id">아이디 : </td>  
+                							<td><input type="text"></td>
+                							<td rowspan="2"> 
+                							<div class="btn-l">
+                							<a href="#" class="btn-layerlogin">login</a> 
+                							</div>
+                							</td>             							
+                							</tr>
+                							<tr>
+                							<td class="pass">패스워드 : </td> 
+                							<td> <input type="password"> </td>
+                							</tr>
+                						</table>
+                						<div class="btn-r">
+                    						<a href="#" class="btn-layerClose">Close</a>
+                						</div>
+                						<!--// content-->
+            						</div>
+        						</div>
+    						</div>
+						</div></td>
+                <td style="width: 5%;"></td>
+            </tr>
+        </table>
+    </header>
+    	<nav class="navbar">
+
+		<ul class="navbar__menu">
+        	<li><a href="#">Home</a></li>
+        	<li><a href="#">Gallery</a></li>
+        	<li><a href="#">Weddings</a></li>
+        	<li><a href="#">FAQ</a></li>
+		</ul>
+
+		<ul class="navbar__search">
+        	<li><input type="text" name="search" placeholder="search"></li>
+        	<li><i class="fa-sharp fa-solid fa-magnifying-glass"></i></li>
+		</ul>
+      	<a href="#" class="navbar__toggleBtn">
+        	<i class="fas fa-hamburger"></i>
+      	</a>
+    </nav>
+    <section>
+    
+    </section>
+</body>
+</html>
